@@ -1,0 +1,34 @@
+{
+    "version": "0.2.0",
+    "configurations": [{
+        "name": "NUXT--CSR",
+        "type": "node",
+        "request": "launch",
+        "runtimeExecutable": "npm",
+        "stopOnEntry": true,
+        "outputCapture": "std",
+        "runtimeArgs": [
+            "run-script",
+            "dev"
+        ],
+        "cwd": "${workspaceFolder}",
+        "port": 9229
+    }, {
+        "name": "NUXT--SSR",
+        "type": "node",
+        "request": "launch",
+        "runtimeExecutable": "npm",
+        "stopOnEntry": true,
+        "outputCapture": "std",
+        "runtimeArgs": [
+            "run-script",
+            "dev:ssr"
+        ],
+        "cwd": "${workspaceFolder}",
+        "port": 9229
+    }, {
+        "name": "--- stub",
+        "type": "node",
+        "request": "launch",
+    }],
+  }
