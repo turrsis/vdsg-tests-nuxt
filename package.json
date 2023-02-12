@@ -8,7 +8,7 @@
     "dev:ssr": "cross-env IS_SSR=true nuxi dev",
     "build": "nuxi build",
     "start": "node .output/server/index.mjs",
-    "postinstall": "call ..\\vdsg-tests-vuecli\\link-tests.bat"
+    "postinstall": "call ..\\..\\slaves-tests\\vdsg-tests-vuecli\\link-tests.bat"
   },
   "devDependencies": {
     "cross-env": "^7.0.2",
