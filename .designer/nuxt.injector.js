@@ -1,4 +1,4 @@
-export default async (nuxtApp) => {
+export default defineNuxtPlugin(async (nuxtApp) => {
     if (nuxtApp.ssrContext) {
         nuxtApp.vueApp.directive('__designer', (el, dir, vnode) => { console.log('ssr.__designer.created', dir) })
     } else {
@@ -11,4 +11,4 @@ export default async (nuxtApp) => {
             }
         )
     }
-}
+})
