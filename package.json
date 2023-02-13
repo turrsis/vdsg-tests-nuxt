@@ -20,6 +20,7 @@
     "../../repo/vdsg-slave",
     "../../repo/vdsg-common",
     "../../repo/vdsg-server-common",
+    "../../meta/vdsg-metadata-tests",
     "../../meta/vdsg-metadata-configs"
   ]
 }
